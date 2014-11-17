@@ -1,4 +1,57 @@
 <?php
+
+/* ============================================================
+   ============================================================
+
+
+   追加
+
+
+   ============================================================
+   ============================================================ */
+
+/**
+ * カスタム投稿タイプ、カスタムタクソノミーの登録
+*/
+function create_post_type(){
+
+  //勉強会スケジュール
+  register_post_type(
+    'schedule',//post-type(※最大20文字)
+    array(
+      'labels' => array(
+        'name' => '勉強会スケジュール',
+        'singular_name' => '勉強会スケジュール'
+      ),
+      'public' => true,
+      'show_ui' => true,
+      'hierarchical' => false,
+      'has_archive' => true,
+      'menu_position' =>5,
+      'supports' => array(
+        'title','excerpt','editor','page-attributes','thumbnail','custom-fields','revisions'
+      )
+    )
+  );
+}
+add_action('init', 'create_post_type');
+
+/**
+ * アイキャッチ画像の有効化
+ *
+ * Usage：テンプレート中に the_post_thumbnail(); //引数例：'thumbnail', array(600,600)
+ */
+add_theme_support('post-thumbnails');//第2引数に array('post','page') で、投稿と固定ページのみで有効
+set_post_thumbnail_size();//引数は幅、高さ(幅で揃える場合は9999)。切り抜きなら第3引数にtrue。引数無しでアイキャッチ用のリサイズ画像なし
+//add_image_size('image-size-name',670,9999,true);//サイズを追加する場合に有効化
+
+
+/*
+ * 追加ここまで
+*/
+
+
+
 /**
  * Twenty Fourteen functions and definitions
  *
