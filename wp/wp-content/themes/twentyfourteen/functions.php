@@ -52,6 +52,7 @@ set_post_thumbnail_size();//引数は幅、高さ(幅で揃える場合は9999)�
 
 
 
+
 /**
  * Twenty Fourteen functions and definitions
  *
