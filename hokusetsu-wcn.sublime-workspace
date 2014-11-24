@@ -1,1 +1,884 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"active"
+			],
+			[
+				"hov",
+				"hover"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"visi",
+				"visited"
+			],
+			[
+				"is_ar",
+				"is_archive"
+			],
+			[
+				"colo",
+				"color_3"
+			],
+			[
+				"color1",
+				"color_1_deep"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"ta",
+				"table"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"MO",
+				"MOJI_CHANGER"
+			],
+			[
+				"content",
+				"content"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"css",
+				"toggleClass"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ba-c",
+				"background-color"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"text",
+				"text-bottom"
+			],
+			[
+				"var",
+				"vertical-align"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"he",
+				"height	Attr"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"bac",
+				"bac	CSS background: #fff url('') 0 0 repeat;"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"cb",
+				"cb"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"bc",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"j",
+				"jquery"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"image",
+				"Emmet: Update Image Size"
+			],
+			[
+				"ima",
+				"Emmet: Update Image Size"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Emmet: Update Image Size"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"mdp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdownp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"mdh2",
+				"Snippet: Markdown_header_(mdh2)"
+			],
+			[
+				"mdl",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"mdi",
+				"Snippet: Markdown_image_(mdi)"
+			],
+			[
+				"pakege",
+				"Package Control: Remove Package"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"snjqu",
+				"Snippet: jQuery.each"
+			],
+			[
+				"sni",
+				"Snippet: if"
+			],
+			[
+				"jjs",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git commit ",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"pak",
+				"Package Control: Remove Package"
+			],
+			[
+				"cdn",
+				"Cdnjs: Import URL only"
+			],
+			[
+				"cdnjs",
+				"Cdnjs: Import URL only"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			]
+		],
+		"width": 591.0
+	},
+	"console":
+	{
+		"height": 312.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"console.log('aa')",
+			"echo \"test\"",
+			"reset"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen"
+	],
+	"file_history":
+	[
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/functions.php",
+		"/Users/taku_n/Library/Caches/Cleanup At Startup/Transmit/8AD07CC3-88AC-48D5-8CA2-C126F0C8F884/wp-config.php",
+		"/Volumes/Second Storage/Together/Folders/出会い系/掲示板リンク集.html",
+		"/Volumes/Second Storage/1/るみ(roomy).txt",
+		"/Volumes/Second Storage/1/そらね",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/style.css",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/gnav3.html",
+		"/Users/taku_n/data/htdocs2/nagai/work_notice/index.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/functions.php",
+		"/Users/taku_n/Desktop/wp-config.php(hokusetsu-webcreators.net)",
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp-config.phpは別保存",
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp-config.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp-config.php",
+		"/Users/taku_n/Desktop/名称未設定.txt",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/gulpfile.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/sftp-config.json",
+		"/Users/taku_n/data/cloud_strages/Dropbox/app_data/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/Users/taku_n/data/cloud_strages/Dropbox/app_data/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/style.scss",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/comments.php",
+		"/Volumes/Second Storage/1/0_temp_掲示板.txt",
+		"/Users/taku_n/data/htdocs2/kumotori/kumotori.sublime-project",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog_投稿済/下スクロールで隠れ、上スクロールで表示される上部メニュー/show_hide_headerbar.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/gnav.html",
+		"/Users/taku_n/Desktop/tumblr_template_sample.html",
+		"/Volumes/Second Storage/1/管理/mail.txt",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog/位置情報を扱う/GoogleMapsAPI ことはじめ/google_map_test/map5.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/search.php",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog/位置情報を扱う/GoogleMapsAPI ことはじめ/test_map4.html",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog/位置情報を扱う/GoogleMapsAPI ことはじめ/google_map_api_test_3.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/index.php",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog/位置情報を扱う/geolocation_test.html",
+		"/Users/taku_n/Downloads/accept-3e72134c6a29/html/index.html",
+		"/Users/taku_n/data/cloud_strages/Dropbox/doc/it_blog/位置情報を扱う/google_map_api_test_2.html",
+		"/Users/taku_n/Desktop/CSSボタンのサンプル.html",
+		"/Users/taku_n/Desktop/ルーチンワーク.txt",
+		"/Users/taku_n/Desktop/ wp_themecheck 覚書.txt",
+		"/Users/taku_n/Desktop/img2picture.txt",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/gnav2.html",
+		"/Users/taku_n/Desktop/geolocation_test.html",
+		"/Users/taku_n/Downloads/Unknown",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/css/font-awesome.min.css",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/gulpfile.js",
+		"/Users/taku_n/Desktop/メインメニュー Responsive-Off-Canvas-Menu.scss",
+		"/Users/taku_n/data/cloud_strages/Dropbox/no3/no3.co.jp/01_管理/_メモ(スケジュール、ToDo)_2014-10-06.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/components/ogp_tag.php",
+		"/Users/taku_n/data/cloud_strages/Dropbox/no3/no3.co.jp/01_管理/_メモ(作業記録).html",
+		"/Users/taku_n/data/htdocs2/stack3/wp-content/themes/stack3/archive.php",
+		"/Users/taku_n/Desktop/iscroll_test/index.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/plugins/my_hello/readme.txt",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/plugins/moji-changer/setting.html.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/plugins/moji-changer/moji-changer.php",
+		"/Users/taku_n/data/cloud_strages/Dropbox/app_data/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/js/functions.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/style.css",
+		"/Users/taku_n/Desktop/jsonp_get_old.html",
+		"/Users/taku_n/data/htdocs/kanami-office.com/wpd/wp-content/themes/kanami-office/header.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/header.php",
+		"/Users/taku_n/Downloads/iscroll/demos/scrollbars/index.html",
+		"/Users/taku_n/Downloads/iscroll/demos/barebone/index.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/js/keyboard-image-navigation.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/js/featured-content-admin.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/js/customizer.js",
+		"/Users/taku_n/data/htdocs/dacapo-osaka.com/wpd/wp-content/themes/dacapo-osaka/archive.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/twentyfourteen/archive.php",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/archive.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/templates/list.html",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/gulpfile5.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/search.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/js/main_不使用.js",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/style.scss",
+		"/Users/taku_n/data/htdocs/dressmegel.com/.htpasswd",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/twentyfourteen/single.php",
+		"/Users/taku_n/Desktop/json2.html",
+		"/Users/taku_n/data/htdocs2/json.html",
+		"/Users/taku_n/Desktop/json.html",
+		"/Users/taku_n/data/htdocs3/html5-boilerplate/dist/index.html",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/functions_未使用.php",
+		"/Users/taku_n/Desktop/Web要整理/編集中_main.js",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/js/main.js",
+		"/Users/taku_n/data/htdocs3/Responsive-Off-Canvas-Menu-master/css/step7.css",
+		"/Users/taku_n/data/htdocs/dacapo-osaka.com/wpd/wp-content/themes/dacapo-osaka/style.scss",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/gulpfile2.js",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/style.scss",
+		"/Users/taku_n/Downloads/testa/functions.php",
+		"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori/style_bak.css",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/style.css",
+		"/Users/taku_n/data/_Projects_shortcut/Vagrant_myCentOSVM2.sublime-project",
+		"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/twentyfourteen/functions.php",
+		"/Users/taku_n/Desktop/test_2014-09-20.html",
+		"/Users/taku_n/Desktop/leaflet-simple-sparql-master/config.js",
+		"/Users/taku_n/Desktop/leaflet-simple-sparql-master/index.html",
+		"/Users/taku_n/myCentOSVM2/Vagrantfile",
+		"/Users/taku_n/myCentOSVM2/index.html",
+		"/Users/taku_n/data/htdocs2/nagai/portfolio/index.html",
+		"/Users/taku_n/data/htdocs2/nagai/index.html",
+		"/Users/taku_n/data/temp_書類にあったの/temp.txt",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-styling.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/index.php.bak",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/index.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/index-products.php",
+		"/Users/taku_n/Desktop/no3_サーバー情報など.txt",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/detail-side_wide.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/header.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/common.js",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/home.js",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/style.css",
+		"/Users/taku_n/Library/Caches/Cleanup At Startup/Transmit/9BE536C3-75E2-4F3C-BA0F-28C4BDAB26D2/style.css",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/作業_avarice.html",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/main.js",
+		"/Users/taku_n/data/htdocs/dacapo-osaka.com/wpd/wp-content/themes/dacapo-osaka/front-page.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/page.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/sidebar.php",
+		"/Users/taku_n/Downloads/bigdump.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/detail-side_wide2.php",
+		"/Users/taku_n/Desktop/coding/avarice/index.html",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/解析用_トップページのグリッド部分.html",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-scalp_skinbeauty.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/footer.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/jquery.vgrid.min.js",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/jquery.vgrid.0.1.8.js",
+		"/Users/taku_n/data/cloud_strages/Dropbox/app_data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/detail-side.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/single.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/解析用_セクションブログの構造.html",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/css/common.css",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-straight.php",
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-salontreatment.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/taku_n/data/htdocs2/kumotori/wp/wp-content/themes/kumotori",
+			"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/",
+			"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products",
+			"/Users/taku_n/data/htdocs/dacapo-osaka/wpd/wp-content/themes/dacapo-osaka",
+			"/Users/taku_n/myCentOSVM2/wp/wp-content/themes/theme_name/assets/templates",
+			"/Users/taku_n/data/htdocs4/kunai,/Users/taku_n/data/htdocs2/cool-jelmat/wp-content/themes/cool-jelmat",
+			"/Users/taku_n/data/htdocs4/kunai",
+			"/Users/taku_n/data/htdocs2/cool-jelmat/wp-content/themes/cool-jelmat",
+			"/Users/taku_n/data/htdocs4/kunai",
+			"/Users/taku_n/data/htdocs2/cool-jelmat/wp-content/themes/cool-jelmat"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"letterpress--",
+			"font-size--",
+			"プラグイン更新",
+			"アイキャッチ",
+			"$color_warning",
+			"#F00",
+			".5em inherit",
+			"\\9",
+			"ms-viewport",
+			"*display:",
+			"水平",
+			"*",
+			"zoom",
+			"label-",
+			"clearfix",
+			"label",
+			"label-blue",
+			"	",
+			"catego",
+			"pre_ge",
+			"post-meta",
+			"function(){",
+			"panel",
+			"filter: progid:DXImageTransform.Microsoft.Shadow",
+			"/9",
+			"map_canvas",
+			"myLatlng",
+			"	",
+			"IE9",
+			"h2",
+			"blockquote",
+			"panel-d",
+			"blockqu",
+			"メイン",
+			"figcaption",
+			"auto",
+			"figure",
+			"ob_get_contents",
+			"hide",
+			"#toggle-button",
+			"@media",
+			"/9",
+			"レイアウト",
+			"pret",
+			"lm_dot",
+			"リスト",
+			"body",
+			"ソーシャル",
+			"meta",
+			"画像",
+			"echo",
+			"add_theme_support(",
+			"bloginfo('template_directory')",
+			"get_bloginfo('template_directory')",
+			"get_bloginfo('template_url')",
+			"bloginfo('url')",
+			"get_bloginfo('url')",
+			"ogp",
+			"get_bloginfo('url')",
+			"bloginfo('url')",
+			"separator",
+			"|",
+			"previ",
+			"site-",
+			"cloud",
+			"site-lo",
+			"textarea",
+			"h2",
+			"grid-b",
+			"next-p",
+			"blue",
+			"topic",
+			"body",
+			"body-inner",
+			"site-logo",
+			":last-",
+			"ol ",
+			"ol",
+			"red",
+			"screen-reader-text",
+			"”",
+			"menu-toggle",
+			"  ",
+			"search-container",
+			"search-",
+			"click",
+			"menu-toggle",
+			"remove_fi",
+			"ウィジェット",
+			"パネル",
+			"post_content",
+			"post_<?php the_ID(); ?>",
+			"post_meta",
+			"article",
+			"pre",
+			"avarice",
+			"body",
+			"カスタム",
+			"subtle",
+			"url(",
+			"body",
+			"	",
+			"code",
+			" class=\"prettyprint\"",
+			"	",
+			"画像",
+			"figure",
+			"	",
+			"外部",
+			"blockqu",
+			"content",
+			"blockq",
+			"blockqu",
+			"google-code",
+			"pret",
+			"$color_td_bg_2",
+			"コメント",
+			"separator",
+			"body",
+			"画像",
+			"body",
+			"画像",
+			"wp-caption",
+			"smiley",
+			"画像",
+			"外部",
+			"外側の",
+			"aタグ"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"letterpress-",
+			"font-size-",
+			"アップデート",
+			"  ",
+			"function () {",
+			"map-canvas",
+			"pos",
+			"  ",
+			"get_template_directory_uri()",
+			"home_url()",
+			"\"",
+			"    ",
+			"post-content",
+			"post-<?php the_ID(); ?>",
+			"post-meta",
+			"  ",
+			"",
+			"  ",
+			")",
+			" (",
+			"'",
+			"panel-",
+			"  ",
+			"_doc.",
+			"@link http://",
+			"",
+			"echo get_template_directory_uri() . \"/",
+			"http://nagaishouten.com/work/no3/wp/wp-content/themes/no3/img/",
+			"<?php echo get_template_directory_uri(); ?>",
+			"<?php echo get_template_directory_uri() ?>/img/",
+			"<?php echo get_template_directory_uri(); ?>/img/",
+			"lineup_item",
+			"  ",
+			"",
+			"  ",
+			"// ",
+			"  ",
+			"<?php get_template_part('detail-side_wide2'); ?>",
+			"",
+			"<!-- ./item -->",
+			"<!-- ./item_wrap -->",
+			"<!-- /.nav_detailpage -->",
+			"<!-- /.itemsection1 -->",
+			"<!-- /#contmain -->",
+			"",
+			"<?php get_template_part('detail-side'); ?>",
+			"<!-- /.itemsection -->",
+			"<!-- ./itemsection -->",
+			"<!-- /#contmain -->",
+			"",
+			"get_template_part('detail-side_wide')",
+			"get_template_part('detail-side');",
+			"",
+			"'",
+			"\"",
+			"'",
+			"  ",
+			"",
+			"true);",
+			"locate_template('",
+			"');",
+			"get_template_part(",
+			"",
+			"(is_page(",
+			"<!-- /#contwrap -->",
+			"<!-- /#contmain -->",
+			"",
+			"components/top_news",
+			"components/top_image_area",
+			"components/social_buttons",
+			"components/ogp_tag",
+			"components/guest_room",
+			"components/contact_bottom",
+			"components/ogp_tag.php",
+			"components/guest_room.php",
+			"components/contact_bottom.php",
+			"@extend %inline-block;",
+			"\"../../style.css\"",
+			"<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+			"<html class=\"no-js\" lang=\"ja\">",
+			"<!--[if lt IE 8]>",
+			"<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->",
+			"<html class=\"no-js\" lang=\"ja\">",
+			"ga('create','UA-XXXXX-X','auto');ga('send','pageview');",
+			"<!doctype html>",
+			"listmarker-faq--answer",
+			"listmarker-faq--question"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 387.0
+	},
+	"project": "hokusetsu-wcn.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"robots.txt"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

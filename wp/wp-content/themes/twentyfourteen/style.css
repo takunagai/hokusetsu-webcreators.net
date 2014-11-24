@@ -3118,7 +3118,7 @@ a.post-thumbnail:hover {
 	.list-view .site-content .type-post .entry-summary,
 	.list-view .site-content .type-page .entry-summary,
 	.list-view .site-content footer.entry-meta {
-		display: none;
+		/*display: none; 2014-11-24 スマホ表示で非表示にならないようコメントアウトした*/
 	}
 
 	.list-view .site-content .entry-title {

@@ -17,7 +17,7 @@
 					<table border="1">
 					  <tr>
 					    <th style="width: 3em;">日時</th>
-					    <td><?php echo esc_html( get_field('date')) . ' ' . esc_html( get_field('time')); ?></td>
+					    <td><?php $weekday = array('日','月','火','水','木','金','土'); $date = get_field('date'); echo date('n/j(', strtotime($date)) . $weekday[date('w', strtotime($date))] . ') ' . esc_html( get_field('time')); ?></td>
 					  </tr>
 					  <tr>
 					    <th>場所</th>
@@ -43,6 +43,10 @@
 
 					<h3>対象者</h3>
 					<?php echo get_field('target'); ?>
+
+					<h3>参加申込み</h3>
+					<p>初めての方も大歓迎。お気軽にご参加ください。<br>
+					<b><a href="http://hokusetsu-webcreators.net/?page_id=8">» 申込みフォーム</a></b></p>
 
 					<?php
 					if ($reports = get_field('reports')) {

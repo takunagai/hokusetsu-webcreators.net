@@ -31,11 +31,21 @@ get_header(); ?>
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+
 	<?php twentyfourteen_post_thumbnail(); ?>
+
+
+  <header class="entry-header">
+    <h1 class="entry-title">北摂Webクリエイターズネット</h1>
+    <p>Web制作/マーケティング関連の勉強会@兵庫県川西市<br>参加者随時募集中です</p>
+    <!-- <div class="entry-meta"></div> -->
+  </header>
+
+
 	<div class="entry-content">
 
-
-<!-- 追加 -->
+<!-- * * * * * * * * * * * * * * 追加 * * * * * * * * * * * * * * -->
 <?php //WP Queryのパラメーター : http://wpdocs.sourceforge.jp/Class_Reference/WP_Query#Parameters
 $args = array(
   //'category_name' => 'hoge',//カテゴリースラッグ。複数はカンマ区切り。除外はマイナス付ける
@@ -74,19 +84,24 @@ $args = array(
 );
 $myposts = get_posts($args);
 ?>
-<?php if($myposts)://★★このif文ありで動くか要検証 ?>
+
+<?php if($myposts): ?>
 	<h2>勉強会のスケジュール</h2>
   <?php foreach($myposts as $post) : setup_postdata($post); ?>
 	<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-	日時：<?php echo esc_html( get_field('date')) . ' ' . esc_html( get_field('time')); ?><br />
-	場所：<?php echo esc_html( get_field('place')); ?>
+	<p>
+    日時：<?php $weekday = array('日','月','火','水','木','金','土'); $date = get_field('date'); echo date('n/j(', strtotime($date)) . $weekday[date('w', strtotime($date))] . ') ' . esc_html( get_field('time')); ?><br />
+	  場所：<?php echo esc_html( get_field('place')); ?><br>
+    [<?php echo esc_attr( $post->post_name ); ?>]
+  </p>
 	<p><?php the_excerpt(); ?></p>
   <?php endforeach; ?>
   <?php wp_reset_postdata(); ?>
 <?php else: ?>
   <p>記事がありません。</p>
 <?php endif; ?>
-<!-- /追加 -->
+<!-- * * * * * * * * * * * * * * /追加 * * * * * * * * * * * * * * -->
+
 
 
 <?php if (have_posts()) : ?>
