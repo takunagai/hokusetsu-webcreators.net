@@ -78,8 +78,8 @@ $args = array(
   //'nopaging' => true,//ページネーションをオフにして全件表示
   'orderby' => 'date',//指定条件で並べる。ID、author、title、date、modified、parent、comment_count、rand（ランダム）、menu_order、meta_value、meta_value_num
   'order' => 'ASC',//降順 DESC。昇順は ASC。上行とセットで、日付降順
-  //'meta_key' => 'color',//カスタムフィールドキー
-  //'meta_value' => 'blue',//カスタムフィールドの値。上行とセットでcolorがblueの記事のみ取得
+  'meta_key' => 'status',//カスタムフィールドキー
+  'meta_value' => array('参加者募集中', '満席'),//カスタムフィールドの値。上行とセットでcolorがblueの記事のみ取得
   //その他、先頭固定投稿引数の表示・非表示や、日時引数、変数を与える など、Codexを参照
 );
 $myposts = get_posts($args);
@@ -87,19 +87,18 @@ $myposts = get_posts($args);
 
 <?php if($myposts): ?>
 	<h2>勉強会のスケジュール</h2>
+  <p>
+    参加者随時募集中です！<br>
+    <a href="http://hokusetsu-webcreators.net/schedule">» 全一覧(過去の勉強会も含む)を見る</a>
+  </p>
   <?php foreach($myposts as $post) : setup_postdata($post); ?>
-  <?php
-    $status = get_field('status');
-    if($status !== '終了') :
-  ?>
 	<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	<p>
     日時：<?php $weekday = array('日','月','火','水','木','金','土'); $date = get_field('date'); echo date('n/j(', strtotime($date)) . $weekday[date('w', strtotime($date))] . ') ' . esc_html( get_field('time')); ?><br />
 	  場所：<?php echo esc_html( get_field('place')); ?><br>
-    [<?php echo esc_attr( $post->post_name ); ?>] <?php echo $status; ?>
+    [<?php echo esc_attr( $post->post_name ); ?>] <?php echo esc_html( get_field('status')); ?>
   </p>
 	<p><?php the_excerpt(); ?></p>
-  <?php endif; ?>
   <?php endforeach; ?>
   <?php wp_reset_postdata(); ?>
 <?php else: ?>
