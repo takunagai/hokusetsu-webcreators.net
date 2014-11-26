@@ -88,13 +88,18 @@ $myposts = get_posts($args);
 <?php if($myposts): ?>
 	<h2>勉強会のスケジュール</h2>
   <?php foreach($myposts as $post) : setup_postdata($post); ?>
+  <?php
+    $status = get_field('status');
+    if($status !== '終了') :
+  ?>
 	<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	<p>
     日時：<?php $weekday = array('日','月','火','水','木','金','土'); $date = get_field('date'); echo date('n/j(', strtotime($date)) . $weekday[date('w', strtotime($date))] . ') ' . esc_html( get_field('time')); ?><br />
 	  場所：<?php echo esc_html( get_field('place')); ?><br>
-    [<?php echo esc_attr( $post->post_name ); ?>]
+    [<?php echo esc_attr( $post->post_name ); ?>] <?php echo $status; ?>
   </p>
 	<p><?php the_excerpt(); ?></p>
+  <?php endif; ?>
   <?php endforeach; ?>
   <?php wp_reset_postdata(); ?>
 <?php else: ?>

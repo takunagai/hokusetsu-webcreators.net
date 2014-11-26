@@ -403,6 +403,10 @@
 	],
 	"file_history":
 	[
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/content.php",
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/single-schedule.php",
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/index.php",
+		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/style.css",
 		"/Users/taku_n/data/htdocs/hokusetsu-webcreators.net/wp/wp-content/themes/twentyfourteen/functions.php",
 		"/Users/taku_n/Library/Caches/Cleanup At Startup/Transmit/8AD07CC3-88AC-48D5-8CA2-C126F0C8F884/wp-config.php",
 		"/Volumes/Second Storage/Together/Folders/出会い系/掲示板リンク集.html",
@@ -526,11 +530,7 @@
 		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/js/jquery.vgrid.0.1.8.js",
 		"/Users/taku_n/data/cloud_strages/Dropbox/app_data/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/detail-side.php",
-		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/single.php",
-		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/解析用_セクションブログの構造.html",
-		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/css/common.css",
-		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-straight.php",
-		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/products/detailcat-salontreatment.php"
+		"/Users/taku_n/data/htdocs/no3.co.jp/wp/wp-content/themes/no3/single.php"
 	],
 	"find":
 	{
@@ -558,6 +558,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	",
+			"entry-content",
+			"Entry Content",
 			"letterpress--",
 			"font-size--",
 			"プラグイン更新",
@@ -682,10 +685,7 @@
 			"画像",
 			"wp-caption",
 			"smiley",
-			"画像",
-			"外部",
-			"外側の",
-			"aタグ"
+			"画像"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -693,6 +693,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"  ",
 			"letterpress-",
 			"font-size-",
 			"アップデート",
